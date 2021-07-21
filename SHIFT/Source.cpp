@@ -1,4 +1,5 @@
 #include<iostream>
+#include<Windows.h>
 using namespace std;
 #define tab "\t"
 
@@ -28,7 +29,8 @@ void main()
 		}
 		arr[n - 1] = buffer;
 	}
-
+	/*Sleep(1000);
+	system("CLS");*/
 	//¬вывод сдвинутого массива:
 	for (int i = 0; i < n; i++)
 	{
